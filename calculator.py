@@ -14,7 +14,7 @@ while attempts < max_attempts:
     password = input("Enter your password: ")
 
     if password == correct_password:
-        print("✅ Login successful. Welcome!")
+        print(" Login successful. Welcome!")
         break
     else:
         attempts += 1
